@@ -1,0 +1,154 @@
+.modal-btn {
+    padding: 14px 15px;
+    border-radius: 10px;
+    border: 5px solid #222222;
+    color: #222222;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.modal-btn:hover {
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+}
+
+.modal-btn i {
+    transform: rotate(180deg);
+    font-size: 25px;
+}
+
+.modal-bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+    z-index: 2;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-deactive {
+    transition: all 0.3s ease-in-out;
+}
+
+.modal {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rbga(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 370px;
+    max-width: 100%;
+    padding: 30px 40px;
+    position: relative;
+}
+
+#submit-form {
+    padding: 13px 30px;
+    border-radius: 25px;
+    background-color: #222222;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    width: 97px;
+    outline: none;
+}
+
+.modal-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+
+.modal-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 17px 40px;
+    margin-bottom: 10px;
+}
+
+.modal h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control input {
+    border: 2px solid #2222;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px 30px 10px 10px;
+    width: 100%;
+    outline: none;
+}
+
+::placeholder {
+    color: #ccc
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
