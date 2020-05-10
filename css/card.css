@@ -33,7 +33,6 @@
 .cards {
     border-radius: 20px;   
     background: #fff;
-    transition: all 0.5s ease-in;
     position: relative;
     padding-bottom: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
@@ -44,8 +43,8 @@
 }
 
 .poster-link {
-    width: 250px;
-    height: 300px;
+    width: 251px;
+    height: 301px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
