@@ -189,7 +189,7 @@ and (max-device-width: 480px) {
     .container {
         display: flex;
         flex-direction: column;
-        padding-right: 10px;
+        padding-right: 15px;
     }
 
     #movie-lib {
@@ -312,7 +312,7 @@ and (max-device-width: 768px) {
     .container {
         display: flex;
         flex-direction: column;
-        padding-right: 10px;
+        padding-right: 15px;
     }
 
     #movie-lib {
@@ -322,7 +322,7 @@ and (max-device-width: 768px) {
 
     aside {
         width: 100%;
-        height: 30vh;
+        height: 5 0vh;
         padding-top: 0;
         margin: 0 5px 5px 5px;
         display: flex;
@@ -411,7 +411,7 @@ and (max-device-width: 1024px) {
 
     aside {
         width: 250px;
-        height: 65vh;
+        height: 85vh;
         padding-top: 0;
         margin: 5px;
         display: flex;
