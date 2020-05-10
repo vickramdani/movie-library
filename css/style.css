@@ -187,9 +187,9 @@ and (max-device-width: 480px) {
     }
 
     .container {
+        width: 98%;
         display: flex;
         flex-direction: column;
-        padding-right: 15px;
     }
 
     #movie-lib {
@@ -310,9 +310,9 @@ and (max-device-width: 768px) {
     }
 
     .container {
+        width: 98%;
         display: flex;
         flex-direction: column;
-        padding-right: 15px;
     }
 
     #movie-lib {
