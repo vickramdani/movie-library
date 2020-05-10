@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -30,6 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    list-style: none;
 }
 
 .navbar ul li {
@@ -144,6 +147,7 @@ aside p {
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
 }
 
 #contact ul li {
@@ -173,19 +177,19 @@ and (max-device-width: 480px) {
     #home h1 {
         font-size: 55px;
         right: 16px;
-        top: 200px;
+        top: 250px;
     }
     
     #home h3 {
         font-size: 20px;
         right: 20px;
-        top: 260px;  
+        top: 310px;  
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        padding: 0 5px;
+        padding-right: 10px;
     }
 
     #movie-lib {
@@ -242,9 +246,9 @@ and (max-device-width: 480px) {
     }
 
     .modal {
-        width: 270px;
+        width: 300px;
         max-width: 100%;
-        max-height: 75%;
+        max-height: 85%;
         padding: 30px 40px;
         position: relative;
         overflow: scroll;
@@ -275,7 +279,7 @@ and (max-device-width: 480px) {
     }
     
     .form-control i {
-        top: 40px;
+        top: 32px;
     }
         
     .form-control small {
@@ -296,19 +300,19 @@ and (max-device-width: 768px) {
     #home h1 {
         font-size: 55px;
         right: 30px;
-        top: 200px;
+        top: 250px;
     }
     
     #home h3 {
         font-size: 20px;
         right: 30px;
-        top: 260px;  
+        top: 310px;  
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        padding: 0 5px;
+        padding-right: 10px;
     }
 
     #movie-lib {
